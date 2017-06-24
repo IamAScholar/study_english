@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    tools:context="com.example.administrator.firstproject.studying"
+    tools:context="com.example.administrator.firstproject.StudyingActivity"
     android:orientation="vertical">
 
 
@@ -21,10 +21,10 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal">
         <Button
-            android:id="@+id/skip_btn"
+            android:id="@+id/next_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/skip_btn" />
+            android:text="@string/next_btn" />
 
         <Button
             android:id="@+id/repeat_btn"
