@@ -6,8 +6,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.iflytek.cloud.SpeechConstant;
+
 public class StudyingActivity extends AppCompatActivity {
 
+    private static String TAG=StudyingActivity.class.getSimpleName();
     private TextView textView;
     private Button repeatBtn,nextBtn;
     private String repeatString="Hello";
@@ -15,6 +18,7 @@ public class StudyingActivity extends AppCompatActivity {
     private final boolean IS_NEXT=true;
     private final boolean IS_REPEAT=false;
     private String[] words ;
+    private String mEngineType = SpeechConstant.TYPE_CLOUD;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
